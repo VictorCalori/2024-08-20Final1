@@ -68,7 +68,7 @@
     <style>
         .navbar-inverse {
             background-color: white;
-            top: -8px;
+          
             right: 0;
             left: 0;
             height: 86px;
