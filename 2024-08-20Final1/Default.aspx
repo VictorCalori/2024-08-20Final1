@@ -16,7 +16,8 @@
                 height:500px;
          }
         .jumbotron {
-            border: solid 1.5px #702C2B;
+            border: solid 3px #702C2B;
+            border-radius: 100px;
             background-color: #ffffff;
             height: 800px; /* Aumenta a altura da jumbotron */
             max-width: 1200px; /* Define uma largura máxima para a jumbotron */
