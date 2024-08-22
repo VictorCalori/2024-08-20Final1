@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="jumbotron">
         <div class="text-center">
-            <asp:Image ID="Logo" runat="server" Height="276px" ImageUrl="~/img/2semfundo.png" Width="440px" />
+            <asp:Image ID="Logo" runat="server" Height="276px" ImageUrl="~/img/2imagemsemfundo.png" Width="424px" />
         </div>
         <p class="lead">Write.it consiste em um blog dedicado à literatura, oferecendo uma plataforma interativa onde os leitores podem compartilhar suas opiniões sobre livros e artigos de diversas categorias. Os usuários têm a liberdade de postar suas resenhas e análises pessoais, reagir às publicações de outros leitores com comentários e avaliações, e salvar suas opiniões favoritas para futuras referências. Além disso, o blog contará com categorias de livros variadas, desde clássicos e literatura contemporânea até ficção científica, fantasia e não-ficção, permitindo que os leitores explorem uma ampla gama de gêneros e temas.</p>
         <p class="text-center">
@@ -20,7 +20,7 @@
             background-color: #ffffff;
             height: 800px; /* Aumenta a altura da jumbotron */
             max-width: 1200px; /* Define uma largura máxima para a jumbotron */
-            margin: auto; /* Centraliza a jumbotron horizontalmente */
+            margin: 50px auto auto auto; /* Centraliza a jumbotron horizontalmente */
             display: flex;
             flex-direction: column;
             justify-content: center;
