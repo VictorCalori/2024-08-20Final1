@@ -40,7 +40,7 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top" height: "80px";>
+        <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
                     <asp:Image ID="Logo" runat="server" Height="81px" ImageUrl="~/img/logo_e_letra.png" Width="216px" />
@@ -48,16 +48,15 @@
                     <br />
                     <br />
                     
-&nbsp;<a class="navbar-brand" runat="server" href="~/"> 
+                    &nbsp;<a class="navbar-brand" runat="server" href="~/"> 
                     &nbsp; </a>
                     
-                    <hr />
+                    
                 </div>
-                
             </div>
         </div>
 
-        <div class="body-content">
+        <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <footer>
@@ -70,8 +69,8 @@
         .navbar-inverse {
             background-color: white;
             top: -8px;
-            right: 0px;
-            left: 0px;
+            right: 0;
+            left: 0;
             height: 86px;
         }
         .navbar-inverse .navbar-nav > li > a {
@@ -79,21 +78,15 @@
             color: black; /* Cor do texto dos itens da navbar */
         }
         .navbar-inverse .navbar-brand {
-            
             color: black;
             height: 42px;
             width: 46px;
             margin-left: 0px;
         }
-        .body-content{
-
-            width: 1000px;
-            margin-left: 30px;
-            border: solid 1.5px;
-            border-color: #702C2B;
-            background-color: #ffffff;
+        
+        footer {
+            text-align: center; /* Centraliza o texto do rodapé */
         }
-     
     </style>
 </body>
 </html>
