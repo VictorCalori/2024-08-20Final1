@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cadastro.aspx.cs" Inherits="_2024_08_20Final1.WebForm1" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cadastro.aspx.cs" Inherits="_2024_08_20Final1.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -13,45 +13,45 @@
     <div class="container" id="container">
         <div class="form-container sign-up-container">
             <form action="#">
-                <h1>Create Account</h1>
+                <h1>Crie sua conta</h1>
                 <div class="social-container">
                     <a href="#" class="social"><i class="fab fa-facebook-f"><img src="imagens/facebook (1).png" alt=""></i></a>
                     <a href="#" class="social"><i class="fab fa-google-plus-g"><img src="imagens/google-plus.png" alt=""></i></a>
                     <a href="#" class="social"><i class="fab fa-linkedin-in"><img src="imagens/linkedin.png" alt=""></i></a>
                 </div>
-                <span>or use your email for registration</span>
-                <input type="text" placeholder="Name" />
+                <span>Ou use o seu Email para se registrar!</span>
+                <input type="text" placeholder="Nome" />
                 <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
-                <button>Sign Up</button>
+                <input type="password" placeholder="Senha" />
+                <button>Cadastre-se</button>
             </form>
         </div>
         <div class="form-container sign-in-container">
             <form action="#">
-                <h1>Sign In</h1>
+                <h1>Login</h1>
                 <div class="social-container">
                     <a href="#" class="social"><i class="fab fa-facebook-f"><img src="imagens/facebook (1).png" alt=""></i></a>
                     <a href="#" class="social"><i class="fab fa-google-plus-g"><img src="imagens/google-plus.png" alt=""></i></a>
                     <a href="#" class="social"><i class="fab fa-linkedin-in"><img src="imagens/linkedin.png" alt=""></i></a>
                 </div>
-                <span>or use your account</span>
+                <span>Ou use sua conta</span>
                 <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
-                <a href="#">Forgot your password?</a>
-                <button>Sign In</button>
+                <input type="password" placeholder="Senha" />
+                <a href="#">Esqueceu sua senha?</a>
+                <button>Login</button>
             </form>
         </div>
         <div class="overlay-container">
             <div class="overlay">
                 <div class="overlay-panel overlay-left">
-                    <h1>Welcome Back!</h1>
-                    <p>To keep connected with us please login with your personal info</p>
-                    <button class="ghost" id="signIn">Sign In</button>
+                    <h1>Bem-vindo(a) de novo!</h1>
+                    <p>Para se conectar informe suas informações de login</p>
+                    <button class="ghost" id="signIn">Login</button>
                 </div>
                 <div class="overlay-panel overlay-right">
-                    <h1>Hello, Friend!</h1>
-                    <p>Enter your personal details and start journey with us</p>
-                    <button class="ghost" id="signUp">Sign Up</button>
+                    <h1>Olá, Leitor(a)!</h1>
+                    <p>Nos informe algumas informações nescessárias para começar sua jornada conosco!</p>
+                    <button class="ghost" id="signUp">Cadastre-se</button>
                 </div>
             </div>
         </div>
@@ -112,7 +112,7 @@ a {
 button {
     border-radius: 20px;
     border: 1px solid #ff4b2b;
-    background-color: #ff4b2b;
+    background-color: #D3ADAD;
     color: #ffffff;
     font-size: 12px;
     font-weight: bold;
@@ -203,10 +203,7 @@ input {
 }
 
 .overlay {
-    background: #ff416c;
-    background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
-    background: linear-gradient(to right, #ff4b2b, #ff416c);
-    background-repeat: no-repeat;
+    background-color: #D3ADAD;
     background-size: cover;
     background-position: 0 0;
     color: #ffffff;
