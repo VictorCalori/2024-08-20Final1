@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="_2024_08_20Final1.SiteMaster" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="_2024_08_20Final1.SiteMaster" %>
 
 <!DOCTYPE html>
 <html lang="pt">
@@ -18,6 +18,7 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
 </head>
 <body>
+    
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -39,18 +40,24 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar navbar-inverse navbar-fixed-top" height: "80px";>
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand" runat="server" href="~/"><asp:Image ID="Logonav" runat="server" Height="73px" ImageUrl="~/img/Write.it-removebg-preview.png" Width="96px" />
-                    &nbsp;<asp:Image ID="Writeit" runat="server" Height="97px" ImageUrl="~/img/Write.it__1_-removebg-preview.png" Width="194px" />
-            <hr />
-                    </a>
+                    <asp:Image ID="Logo" runat="server" Height="81px" ImageUrl="~/img/logo_e_letra.png" Width="216px" />
+                    
+                    <br />
+                    <br />
+                    
+&nbsp;<a class="navbar-brand" runat="server" href="~/"> 
+                    &nbsp; </a>
+                    
+                    <hr />
                 </div>
                 
             </div>
         </div>
-        <div class="container body-content">
+
+        <div class="body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <footer>
@@ -78,6 +85,15 @@
             width: 46px;
             margin-left: 0px;
         }
+        .body-content{
+
+            width: 1000px;
+            margin-left: 30px;
+            border: solid 1.5px;
+            border-color: #702C2B;
+            background-color: #ffffff;
+        }
+     
     </style>
 </body>
 </html>
