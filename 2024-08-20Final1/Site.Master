@@ -43,16 +43,11 @@
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <asp:Image ID="Logo" runat="server" Height="81px" ImageUrl="~/img/logo_e_letra.png" Width="216px" />
-                    
+                    <asp:ImageButton  href="~/" ID="imglogo" runat="server" ImageUrl="~/img/logo_e_letra.png" Height="81px" Width="216px" />
                     <br />
-                    <br />
+                    <br />                    
                     
-                    &nbsp;<a class="navbar-brand" runat="server" href="~/"> 
-                    &nbsp; </a>
-                    
-                    
-                </div>
+               </div>
             </div>
         </div>
 
@@ -67,15 +62,14 @@
 
     <style>
         .navbar-inverse {
-            background-color: white;
-          
+            background-color: white;          
             right: 0;
             left: 0;
             height: 86px;
         }
         .navbar-inverse .navbar-nav > li > a {
             background-color: white;
-            color: black; /* Cor do texto dos itens da navbar */
+           
         }
         .navbar-inverse .navbar-brand {
             color: black;
@@ -83,9 +77,18 @@
             width: 46px;
             margin-left: 0px;
         }
+
+        .navbar navbar-inverse navbar-fixed-top{
+            color: #eeeeee;
+            height: 4px;
+            border: 2px solid, #eeeeee
+        }
+        .navbar-header{
+            border: 2px solid, #eeeee
+        }
         
         footer {
-            text-align: center; /* Centraliza o texto do rodapé */
+            text-align: center;
         }
     </style>
 </body>
