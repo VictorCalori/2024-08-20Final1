@@ -37,7 +37,7 @@
                 <span>Ou use sua conta</span>
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Senha" />
-                <a href="#">Esqueceu sua senha?</a>
+                <a href="/Recuperarsenha.aspx">Esqueceu sua senha?</a>
                 <button>Login</button>
             </form>
         </div>
