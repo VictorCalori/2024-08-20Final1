@@ -15,9 +15,9 @@
             <form action="#">
                 <h1>Crie sua conta</h1>
                 <div class="social-container">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"><img src="imagens/facebook (1).png" alt=""></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"><img src="imagens/google-plus.png" alt=""></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"><img src="imagens/linkedin.png" alt=""></i></a>
+                    <a href="https://www.facebook.com/login/?locale=pt_BR" class="social"><i class="fab fa-facebook-f"><img src="imagens/facebook (1).png" alt=""></i></a>
+                    <a href=https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&hl=pt_BR&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1003722556%3A1724444887795365&ddm=0" class="social"><i class="fab fa-google-plus-g"><img src="imagens/google-plus.png" alt=""></i></a>
+                    <a href="https://br.linkedin.com/?src=go-pa&trk=sem-ga_campid.12619604102_asid.151902686042_crid.662560784779_kw.linkedin%20entrar_d.c_tid.kwd-60726578093_n.g_mt.p_geo.1001776&mcid=6821526239111716926&cid=&gad_source=1&gclid=CjwKCAjw5qC2BhB8EiwAvqa41u68KgChlYJs_kjr4BrC5fVB5GSP8yFhFLgYTHT9ZXI2gZ6xZ_qUtBoCdCMQAvD_BwE&gclsrc=aw.ds" class="social"><i class="fab fa-linkedin-in"><img src="imagens/linkedin.png" alt=""></i></a>
                 </div>
                 <span>Ou use o seu Email para se registrar!</span>
                 <input type="text" placeholder="Nome" />
@@ -30,9 +30,9 @@
             <form action="#">
                 <h1>Login</h1>
                 <div class="social-container">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"><img src="imagens/facebook (1).png" alt=""></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"><img src="imagens/google-plus.png" alt=""></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"><img src="imagens/linkedin.png" alt=""></i></a>
+                   <a href="https://www.facebook.com/login/?locale=pt_BR" class="social"><i class="fab fa-facebook-f"><img src="imagens/facebook (1).png" alt=""></i></a>
+<a href=https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&hl=pt_BR&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1003722556%3A1724444887795365&ddm=0" class="social"><i class="fab fa-google-plus-g"><img src="imagens/google-plus.png" alt=""></i></a>
+<a href="https://br.linkedin.com/?src=go-pa&trk=sem-ga_campid.12619604102_asid.151902686042_crid.662560784779_kw.linkedin%20entrar_d.c_tid.kwd-60726578093_n.g_mt.p_geo.1001776&mcid=6821526239111716926&cid=&gad_source=1&gclid=CjwKCAjw5qC2BhB8EiwAvqa41u68KgChlYJs_kjr4BrC5fVB5GSP8yFhFLgYTHT9ZXI2gZ6xZ_qUtBoCdCMQAvD_BwE&gclsrc=aw.ds" class="social"><i class="fab fa-linkedin-in"><img src="imagens/linkedin.png" alt=""></i></a>
                 </div>
                 <span>Ou use sua conta</span>
                 <input type="email" placeholder="Email" />
