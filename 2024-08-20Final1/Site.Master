@@ -1,4 +1,4 @@
-<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="_2024_08_20Final1.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="_2024_08_20Final1.SiteMaster" %>
 
 <!DOCTYPE html>
 <html lang="pt">
@@ -89,7 +89,7 @@
         footer {
             text-align: center;
         }
-        
     </style>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
 </body>
 </html>

@@ -9,7 +9,7 @@ namespace _2024_08_20Final1
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        protected void Page_Load(object sender, EventArgs e)
+        protected void Page_Load1(object sender, EventArgs e)
         {
 
         }
