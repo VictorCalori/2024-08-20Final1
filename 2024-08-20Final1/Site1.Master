@@ -43,23 +43,37 @@
         <div class="navbar navbar-inverse navbar-fixed-top">
                 <div class="navbar-header" style="display: flex; align-items: center;">
                    
-                    <asp:ImageButton href="~/" ID="imglogo" runat="server" ImageUrl="~/img/logo_e_letra.png" Height="81px" Width="216px" style="margin-right: auto;" />
+                    <asp:ImageButton href="~/" ID="imglogo1" runat="server" ImageUrl="~/img/logo_e_letra.png" Height="81px" Width="216px" style="margin-right: auto;" />
                     
                     <div class="Busca">
                         <asp:Image ID="ImgPesquisa" runat="server" ImageUrl="~/img/pesquisa.png" />
+                    &nbsp;
                     <input id="Txtbusca" type="text" placeholder="Buscar por usuários, artigos, categorias ou palavras-chave" style="width: 842px; margin-left: auto;" />
                         </div>
+
+                    <asp:ImageButton ID="Imgbtnuser" runat="server" ImageUrl="~/img/usuário.png" Width="60px"  /><asp:Panel ID="Panel1" runat="server"></asp:Panel>
                 </div>
             </div>
        
 
-        <div class="container body-content">
+        <%-- To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
             <asp:ContentPlaceHolder ID="MainContent1" runat="server">
             </asp:ContentPlaceHolder>
-        </div>
+        <%-- Framework Scripts --%>
+
+        <center>
+            <asp:Panel ID="Panel2" runat="server" Width="265" Height=" 313" style="background-color: #FFFFFF">
+</asp:Panel>
+
+            <footer>
+        <asp:ImageButton ID="ImgBtnmenu" runat="server" ImageUrl="~/img/menu.png" Width="44px" />
+        
+        
+    </footer> </center>
 
     </form>
 
+   
     <style>
         
         .navbar-inverse {
@@ -95,14 +109,13 @@
             height: 40px;
         }
         
-        footer {
-            text-align: center;
-        }
         input {
             width:600px;
+        }
+        footer{
+            align-content: justify;
         }
 
     </style>
 </body>
 </html>
-
