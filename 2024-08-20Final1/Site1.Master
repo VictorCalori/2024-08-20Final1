@@ -1,9 +1,9 @@
-<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="_2024_08_20Final1.SiteMaster" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="_2024_08_20Final1.Site1" %>
 
 <!DOCTYPE html>
 <html lang="pt">
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" text="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> Write.it</title>
@@ -41,81 +41,87 @@
         </asp:ScriptManager>
 
         <div class="navbar navbar-inverse navbar-fixed-top">
-                <div class="navbar-header" style="display: flex; align-items: center;">
-                   
-                    <asp:ImageButton href="~/" ID="imglogo1" runat="server" ImageUrl="~/img/logo_e_letra.png" Height="81px" Width="216px" style="margin-right: auto;" />
-                    
-                    <div class="Busca">
-                        <asp:Image ID="ImgPesquisa" runat="server" ImageUrl="~/img/pesquisa.png" />
+            <div class="navbar-header">
+                <asp:ImageButton href="~/" ID="imglogo1" runat="server" ImageUrl="~/img1/logo_e_letra.png" Height="81px" Width="216px" class="navbar-logo" />
+                
+                <div class="Busca">
+                    <asp:Image ID="ImgPesquisa" runat="server" ImageUrl="~/img1/pesquisa.png" />
                     &nbsp;
-                    <input id="Txtbusca" type="text" placeholder="Buscar por usuários, artigos, categorias ou palavras-chave" style="width: 842px; margin-left: auto;" />
-                        </div>
-
-                    <asp:ImageButton ID="Imgbtnuser" runat="server" ImageUrl="~/img/usuário.png" Width="60px"  /><asp:Panel ID="Panel1" runat="server"></asp:Panel>
+                    <input id="Txtbusca" type="text" placeholder="Buscar por usuários, artigos, categorias ou palavras-chave" />
                 </div>
+
+                    &nbsp;&nbsp; <asp:ImageButton ID="Imgbtnuser" runat="server" ImageUrl="~/img1/usuário.png" Width="60px" />
+                
             </div>
-       
+        </div>
 
         <%-- To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
-            <asp:ContentPlaceHolder ID="MainContent1" runat="server">
-            </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="MainContent1" runat="server"></asp:ContentPlaceHolder>
         <%-- Framework Scripts --%>
 
         <center>
-            <asp:Panel ID="Panel2" runat="server" Width="265" Height=" 313" style="background-color: #FFFFFF">
-</asp:Panel>
+            <asp:Panel ID="Panelres" runat="server" Width="265px" Height="287px" Style="background-color: #FFFFFF" Visible="False">
+                <br />
+                <asp:Image ID="Imgescrever" runat="server" ImageUrl="~/img1/escrever.png" Width="255px" />
+                <br />
+                <asp:Image ID="Imgsalvos" runat="server" Height="89px" ImageUrl="~/img1/salvos.png" Width="255px" />
+                <br />
+                <asp:Image ID="Imgemalta" runat="server" Height="70px" ImageUrl="~/img1/em_alta.png" Width="253px" />
+
+            </asp:Panel>
 
             <footer>
-        <asp:ImageButton ID="ImgBtnmenu" runat="server" ImageUrl="~/img/menu.png" Width="44px" />
-        
-        
-    </footer> </center>
-
+                <asp:ImageButton ID="ImgBtnmenu" runat="server" ImageUrl="~/img1/menu.png" Width="44px" OnClick="ImgBtnmenu_Click" />
+            </footer>
+        </center>
     </form>
 
-   
     <style>
-        
         .navbar-inverse {
-            background-color: white;          
-            height: 86px;
-        }
-
-        .navbar-inverse .navbar-nav > li > a {
             background-color: white;
+            height: 86px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 0 20px;
         }
 
         .navbar-header {
             display: flex;
             align-items: center;
             width: 100%;
+            justify-content: flex-end;
         }
 
-        #imglogo {
-            margin-left:50px; 
+        .navbar-logo {
+            margin-right: auto;
         }
-        .Busca{
-            margin-right: 40px; 
-            width: 600px; 
-            height: 40px;
+
+        .Busca {
+            display: flex;
+            align-items: center;
             border: 2px solid #702C2B;
             border-radius: 20px;
-            padding-left: 15px;
-        }
-        #Txtbusca{
-            border: none; 
-            background-color: transparent;
-            width: 600px; 
-            height: 40px;
-        }
-        
-        input {
-            width:600px;
-        }
-        footer{
-            align-content: justify;
+            width: 650px;
+            margin-left: 900px;
         }
 
+        #Txtbusca {
+            border: none;
+            background-color: transparent;
+            width: 1000px;
+            height: 100%;
+        }
+
+       #Panelres{
+            border: 2px solid #702C2B;
+            border-radius: 20px;
+       }
+
+        footer {
+            align-content: center;
+             border-radius: 20px;
+        }
     </style>
 </body>
 </html>
